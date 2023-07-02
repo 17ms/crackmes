@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # Link: https://crackmes.one/crackme/60c24a7133c5d410b8842d3c
+
 # The algorithm simply checks pw[4]=='@' && pw[6]=='-' && pw[9]=='l' && pw[15]=='?'.
 
 import random

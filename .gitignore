@@ -6,3 +6,6 @@
 .vscode/
 *.dSYM/
 
+# Fucking MacOS
+.DS_Store
+

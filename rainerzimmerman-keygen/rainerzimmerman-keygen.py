@@ -3,11 +3,11 @@
 # Link: https://crackmes.one/crackme/6403ac2a33c5d447bc76179f
 
 # Conditions that must be fulfilled for the key to be valid:
-# 1. len(key) == 13 && key[3] == "-"
-# (2. sum1 = sum(key[0:3])))
-# 3. (key[0] ^ sum1 % 3) == sum(key[4:7])
-# 4. (key[1] ^ sum1 % 3) == sum(key[7:10])
-# 5. (key[2] ^ sum1 % 3) == sum(key[10:13])
+# len(key) == 13 && key[3] == '-'
+# (sum1 = sum(key[0:3])))
+# (key[0] ^ sum1 % 3) == sum(key[4:7])
+# (key[1] ^ sum1 % 3) == sum(key[7:10])
+# (key[2] ^ sum1 % 3) == sum(key[10:13])
 
 import random
 
