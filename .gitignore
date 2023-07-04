@@ -1,7 +1,6 @@
 *.txt
 *.out
 *.zip
-*.so
 
 .vscode/
 *.dSYM/
